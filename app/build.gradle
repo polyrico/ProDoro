@@ -104,7 +104,7 @@ dependencies {
     implementation 'com.heinrichreimersoftware:material-intro:2.0.0'
 
     // App rating
-    implementation 'io.github.kobakei:ratethisapp:1.2.0'
+    // implementation 'io.github.kobakei:ratethisapp:1.2.0'
 
     // IAP
     def billing_version = "6.1.0"

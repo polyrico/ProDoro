@@ -50,6 +50,7 @@ class BackupFragment : BottomSheetDialogFragment() {
         return binding.root
     }
 
+    @Deprecated("Deprecated in Java")
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         if (requestCode == IMPORT_BACKUP_REQUEST && data != null) {
             val uri = data.data

@@ -79,7 +79,7 @@ import com.apps.adrcotfas.goodtime.util.startOfTomorrowMillis
 import com.google.android.material.chip.Chip
 import com.google.android.material.snackbar.BaseTransientBottomBar
 import com.google.android.material.snackbar.Snackbar
-import com.kobakei.ratethisapp.RateThisApp
+// import com.kobakei.ratethisapp.RateThisApp
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
@@ -181,9 +181,9 @@ class TimerActivity : ActivityWithBilling(), OnSharedPreferenceChangeListener,
         selectLabelDialog?.dismiss()
         if (!BuildConfig.F_DROID) {
             // Monitor launch times and interval from installation
-            RateThisApp.onCreate(this)
+            // RateThisApp.onCreate(this)
             // If the condition is satisfied, "Rate this app" dialog will be shown
-            RateThisApp.showRateDialogIfNeeded(this)
+            // RateThisApp.showRateDialogIfNeeded(this)
         }
     }
 
